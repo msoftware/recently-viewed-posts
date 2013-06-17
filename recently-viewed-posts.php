@@ -88,7 +88,6 @@ function recently_viewed_get_blackist ()
 
 function recently_viewed_in_blackist ($id)
 {
-	// Blacklisted Ids // TODO: Admin Interface
 	$recently_viewed_blacklist = recently_viewed_get_blackist ();
 	if (isset ($recently_viewed_blacklist[$id])) 
 		return true;
